@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggies.collect do |mem|
+  veggies.each do |mem|
     puts mem[0]
     mem[0].upcase!
     puts mem[0]
