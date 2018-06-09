@@ -5,7 +5,7 @@ end
 def summon_captain_planet(veggies)
   veggies.each do |mem|
     puts mem[0]
-    mem[0].upcase!
+    mem[0].capitalize
     puts mem[0]
     mem << "!"
   end
