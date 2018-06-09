@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(long_planeteer_calls)
-  long_planeteer_calls.any? do {|mem| mem.length > 4}
+  long_planeteer_calls.any? {|mem| mem.length > 4}
 end
 
 def find_the_cheese# code an argument here
