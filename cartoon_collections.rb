@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(veggies)
   veggies.collect do |mem|
-    mem[0].upcase
+    mem[0].upcase!
     mem << "!"
   end
 end
